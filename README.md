@@ -30,8 +30,8 @@ DOHA 将工程分为：
 
 - doha-handler：应用程序入口，入站适配器实现都在这里，负责处理外部请求，依赖其它工程。
 
-- doha-interface：为第三方应用提供编程接口，如 RPC、Event、MQ 等，不依赖其它工程。
+- doha-interface：提供给第三方应用依赖的编程接口，如 RPC、Event、MQ 等，不依赖其它工程。
 
 - doha-invoker：出站适配器实现都在这里，负责调用外部系统，依赖 doha-business 工程。
 
-- doha-business：业务逻辑实现的地方，不依赖其它工程。
+- doha-business：业务逻辑实现的地方，包括入站端口服务、领域模型、出站端口接口，不依赖其它工程。
