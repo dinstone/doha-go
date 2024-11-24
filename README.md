@@ -16,7 +16,7 @@ DOHA (面向领域的六边形架构)的核心在于应用领域驱动设计（D
 
 ## 逻辑架构
 
-![逻辑架构](https://static001.geekbang.org/infoq/93/939339cf6398a51fca44d9e061df079f.jpeg?x-oss-process=image%2Fresize%2Cp_80%2Fauto-orient%2C1)
+![逻辑架构](https://static001.geekbang.org/infoq/93/939339cf6398a51fca44d9e061df079f.jpeg)
 
 DOHA 架构将应用细化为五个分层： Inbound Adapter 层、Inbound Port 层、Domain 层、Outbound Port 层、Outbound Adapter层。
 
@@ -24,7 +24,7 @@ DOHA 架构将应用细化为五个分层： Inbound Adapter 层、Inbound Port 
 
 ## 实现架构
 
-![实现架构](https://static001.geekbang.org/infoq/1f/1fa3d155932035b60fe7cb4657784927.jpeg?x-oss-process=image%2Fresize%2Cp_80%2Fauto-orient%2C1)
+![实现架构](https://static001.geekbang.org/infoq/1f/1fa3d155932035b60fe7cb4657784927.jpeg)
 
 DOHA 将工程分为：
 
