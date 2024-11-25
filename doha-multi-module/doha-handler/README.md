@@ -1,0 +1,3 @@
+```
+bee generate routers
+```

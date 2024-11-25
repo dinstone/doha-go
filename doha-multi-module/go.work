@@ -1,0 +1,8 @@
+go 1.21.0
+
+use (
+	./doha-invoker
+	./doha-business
+	./doha-interface
+	./doha-handler
+)
